@@ -49,7 +49,7 @@ jobs:
           # Provide Checkmarx Client Secret
           checkmarx_client_secret: 014DF517-39D1-4453-B7B3-9930C563627C
           # Select a Checkmarx Project
-          project: LM_JVL
+          project: LM_WebGoat
           # Select an Application Name used by downstream bug tracker systems
           #app: # optional, default is SampleApp
           # Select a Checkmarx Preset
@@ -65,7 +65,7 @@ jobs:
           # GitHub API Token
           #github_token: # optional, default is ${{ github.token }}
           # Vulnerability Scanners (sast, sca, ast, cxgo)
-          scanners: sca 
+          scanners: sast, sca 
           # Provide SCA API URL
           sca_api_url: https://api.scacheckmarx.com
           # Provide SCA APP URL
