@@ -1,5 +1,5 @@
     
-name: CI
+name: CxFlow
 
 # Controls when the action will run. 
 on:
