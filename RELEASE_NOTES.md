@@ -1,6 +1,6 @@
 # WebGoat release notes 
 
-## Version 8.2.2
+## Version 8.2.2 Leon
 
 ### New functionality
 
